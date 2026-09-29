@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ariful Islam — builder at ABsUP and OpenCodeWEB. AI-native web systems, autonomous agents, and edge-first open source.">
+  <meta name="theme-color" content="#18181B">
+  <title>Ariful Islam — ABsUP / OpenCodeWEB</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2318181B'/><text x='16' y='22' text-anchor='middle' font-size='16' font-family='Inter,sans-serif' fill='%23FAFAFA'>A</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        Ariful Islam
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle color theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 3v2M12 19v2M5 12H3M21 12h-2M6.3 6.3l1.4 1.4M16.3 16.3l1.4 1.4M6.3 17.7l1.4-1.4M16.3 7.7l1.4-1.4"></path>
+          </svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav wrap" id="mobile-nav" aria-label="Mobile">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">GitHub Pages · ABsUP × OpenCodeWEB</p>
+        <h1>AI-native systems, shipped in the open.</h1>
+        <p class="lede">I design autonomous agents, edge-first backends, and web platforms under <a href="https://github.com/ABsUP">ABsUP</a> and the <a href="https://github.com/OpenCodeWEB">OpenCodeWEB</a> organization.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">View projects</a>
+          <a class="btn btn-ghost" href="https://github.com/OpenCodeWEB">OpenCodeWEB on GitHub</a>
+        </div>
+        <dl class="stats">
+          <div class="stat">
+            <dt>OpenCodeWEB repos</dt>
+            <dd>40</dd>
+          </div>
+          <div class="stat">
+            <dt>ABsUP public repos</dt>
+            <dd>2</dd>
+          </div>
+          <div class="stat">
+            <dt>Core languages</dt>
+            <dd>TS / JS</dd>
+          </div>
+          <div class="stat">
+            <dt>Status</dt>
+            <dd>Hireable</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Featured projects</h2>
+            <p>Public repositories from ABsUP and OpenCodeWEB, filtered by origin.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Filter projects">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter" type="button" data-filter="absup" aria-pressed="false">ABsUP</button>
+            <button class="filter" type="button" data-filter="ocw" aria-pressed="false">OpenCodeWEB</button>
+          </div>
+        </div>
+
+        <div class="grid">
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/AG">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">TypeScript</span></div>
+            <h3>AG</h3>
+            <p>Autonomous polyglot AI agent with pre-mutation backups, AST audits, self-healing repair, and dual-authorship commits.</p>
+            <span class="card-link">github.com/OpenCodeWEB/AG</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/OS">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">TypeScript</span></div>
+            <h3>OS</h3>
+            <p>Self-sovereign AI-native operating system monorepo: kernel, AiA engine, edge gateway, workers, and portal.</p>
+            <span class="card-link">github.com/OpenCodeWEB/OS</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/AiA">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">Python</span></div>
+            <h3>AiA</h3>
+            <p>Master Intelligence Engine — unlimited-context governance, limitation remover, and federated learning.</p>
+            <span class="card-link">github.com/OpenCodeWEB/AiA</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/UI">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">TypeScript</span></div>
+            <h3>UI</h3>
+            <p>Enterprise OpenCode ecosystem plugin and hybrid infrastructure manager.</p>
+            <span class="card-link">github.com/OpenCodeWEB/UI</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/GDBx">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">JavaScript</span></div>
+            <h3>GDBx</h3>
+            <p>Active Pages-hosted product surface at Gdbx.Pages.Dev.</p>
+            <span class="card-link">github.com/OpenCodeWEB/GDBx</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/GDMx">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">HTML</span></div>
+            <h3>GDMx</h3>
+            <p>HTML product surface published at GDMx.Pages.Dev.</p>
+            <span class="card-link">github.com/OpenCodeWEB/GDMx</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/DSGx">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">JavaScript</span></div>
+            <h3>DSGx</h3>
+            <p>JavaScript product surface published at DSGx.Pages.Dev.</p>
+            <span class="card-link">github.com/OpenCodeWEB/DSGx</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/GunX">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">JavaScript</span></div>
+            <h3>GunX</h3>
+            <p>Decentralized graph-sync experiment on Gunx.Pages.Dev.</p>
+            <span class="card-link">github.com/OpenCodeWEB/GunX</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/MCP">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">JavaScript</span></div>
+            <h3>MCP</h3>
+            <p>Model Context Protocol experiments for agent tooling.</p>
+            <span class="card-link">github.com/OpenCodeWEB/MCP</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/A2A">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">JavaScript</span></div>
+            <h3>A2A</h3>
+            <p>Agent-to-agent protocol experiments.</p>
+            <span class="card-link">github.com/OpenCodeWEB/A2A</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/Servers">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">TypeScript</span></div>
+            <h3>Servers</h3>
+            <p>Cloudflare Worker gateway, API endpoints, and deployment automation.</p>
+            <span class="card-link">github.com/OpenCodeWEB/Servers</span>
+          </a>
+          <a class="card reveal" data-category="absup" href="https://github.com/ABsUP/ABsUP">
+            <div class="card-meta"><span class="tag">ABsUP</span><span class="lang">HTML</span></div>
+            <h3>ABsUP</h3>
+            <p>Personal profile and web surface for the ABsUP account.</p>
+            <span class="card-link">github.com/ABsUP/ABsUP</span>
+          </a>
+          <a class="card reveal" data-category="absup" href="https://github.com/ABsUP/QuirrelX">
+            <div class="card-meta"><span class="tag">ABsUP</span><span class="lang">Serverless</span></div>
+            <h3>QuirrelX</h3>
+            <p>Fork of Quirrel — task queueing for serverless runtimes.</p>
+            <span class="card-link">github.com/ABsUP/QuirrelX</span>
+          </a>
+          <a class="card reveal" data-category="ocw" href="https://github.com/OpenCodeWEB/text-to-image-template">
+            <div class="card-meta"><span class="tag">OpenCodeWEB</span><span class="lang">TypeScript</span></div>
+            <h3>text-to-image-template</h3>
+            <p>TypeScript template for text-to-image generation workflows.</p>
+            <span class="card-link">github.com/OpenCodeWEB/text-to-image-template</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Builder of agent systems and edge web platforms.</h2>
+          <p>Recent public work spans a polyglot AI agent (AG), a self-sovereign AI OS, a master intelligence engine (AiA), Cloudflare Worker gateways, and a family of Pages-hosted product surfaces.</p>
+          <p>Open to collaboration on agent tooling, serverless queues, MCP/A2A protocols, and hybrid UI infrastructure.</p>
+          <div class="stack" aria-label="Tech stack">
+            <span>TypeScript</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>HTML</span>
+            <span>Cloudflare Workers</span>
+            <span>GitHub Pages</span>
+            <span>MCP</span>
+            <span>A2A</span>
+          </div>
+        </div>
+        <aside class="contact-card" id="contact">
+          <p class="eyebrow">Contact</p>
+          <h2>Reach out</h2>
+          <p>Follow the accounts, browse the org, or email OpenCodeWEB.</p>
+          <ul class="contact-list">
+            <li>
+              <a href="https://github.com/ABsUP">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.36 6.84 9.72.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.9-1.32 2.74-1.05 2.74-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                github.com/ABsUP
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/OpenCodeWEB">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.36 6.84 9.72.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.9-1.32 2.74-1.05 2.74-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+                github.com/OpenCodeWEB
+              </a>
+            </li>
+            <li>
+              <a href="mailto:OpenCodeWEB@ABsUP.ORG">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+                OpenCodeWEB@ABsUP.ORG
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Ariful Islam. Static site for GitHub Pages.</p>
+      <p><a href="https://github.com/ariful47526islam/ariful47526islam">Source</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
